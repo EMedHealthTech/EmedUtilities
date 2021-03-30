@@ -44,6 +44,8 @@ object CameraGalleryUtils {
         return fileSizeInMB < 8 // MAXIMUM limit of file
     }
 
+
+
     fun getCameraPathFromURI(context: Context, contentUri: Uri): String {
         try {
             val proj = arrayOf(MediaStore.Images.Media.DATA)
